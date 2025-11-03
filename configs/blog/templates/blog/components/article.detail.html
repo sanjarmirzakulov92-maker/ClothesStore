@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ ttile }}
+{% endblock title %}
+
+
+{% block main %}
+
+<div class="container d-flex justify-content-between"></div>
+    <div class="col-7">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <b>{{ article.category }}</b>
+                <div>
+                    <a href="" class="btn btn-primary">Back</a>
+                    <a href="" class="btn btn-warning">Edit</a>
+                    <a href="" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}
